@@ -17,6 +17,7 @@ namespace T3
         {
             driver = new ChromeDriver();
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(15));
+            driver.Manage().Window.Maximize();
             credentialManager = new CredentialManager(driver, wait);
             credentialManager.Register();
             driver.Quit();
