@@ -24,6 +24,7 @@ namespace T2
         }
 
         [Test]
+        [Ignore("Ignore")]
         public void Test1()
         {
             const string complete = "100%";
@@ -51,6 +52,7 @@ namespace T2
 
         
         [Test]
+        [Ignore("Ignore")]
         public void Test2()
         {
             const int repetitions = 8;

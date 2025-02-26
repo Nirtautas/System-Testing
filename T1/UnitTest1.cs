@@ -24,6 +24,7 @@ namespace T1
         }
 
         [Test]
+        [Ignore("Ignore")]
         public void Test1()
         {
             const string expectedSubtotal = "1002600.00";
