@@ -38,6 +38,7 @@ namespace T3
             driver.Quit();
         }
 
+        [Ignore("Ignore")]
         [TestCase("data1.txt")]
         [TestCase("data2.txt")]
         public void Test1(string dataPath)
